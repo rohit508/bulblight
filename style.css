@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bulb {
+    width: 30%;
+    height: 50%;
+    margin-left: 30%;
+}
+
+.bulb-Btn {
+    padding: 7px 9px;
+    margin-left: 23%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(227, 233, 233);
+}
+
+@media only screen and (max-width: 600px) {
+    .bulb-Btn {
+        padding: 5px 9px;
+        margin-left: 40%;
+        margin-top: 40px;
+        font-size: 25px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        outline: none;
+    }
+    .bulb {
+        width: 60%;
+        height: 70%;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+}
